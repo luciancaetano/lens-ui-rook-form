@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2021-08-31)
+
+
+### Features
+
+* :tada:  First commit ([d7c39b9](https://github.com/luciancaetano/lens-ui/commit/d7c39b9aecad98dd76cccc68e0416557b7f21e63))
+* **wrap all input components:** :sparkles: ([38b799e](https://github.com/luciancaetano/lens-ui/commit/38b799e45984dcde1f8faaada437385089ed7d72))
+
 ### [1.8.4](https://github.com/luciancaetano/lens-ui/compare/v1.8.3...v1.8.4) (2021-08-27)
 
 
