@@ -129,7 +129,7 @@
     "emoji": "code"
   },
   "dependencies": {
-    "@luciancaetano/lens-ui": "^2.0.1",
+    "@luciancaetano/lens-ui": "^2.0.2",
     "clsx": "^1.1.1",
     "react-hook-form": "^7.14.2"
   }
