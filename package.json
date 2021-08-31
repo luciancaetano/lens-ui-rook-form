@@ -9,9 +9,7 @@
   "description": "Lucian's Design System",
   "scripts": {
     "build": "rimraf build/ && webpack --mode production && npm run check:licenses && rimraf types/ && npm run types",
-    "test": "jest --coverage --silent",
     "check:licenses": "license-checker --production --csv --out build/licenses.csv",
-    "test:dev": "jest --watchAll --coverage",
     "storybook": "start-storybook -p 3210",
     "storybook:export": "npm run build && build-storybook",
     "lint": "npm run lint:code && npm run lint:styles",
@@ -64,11 +62,6 @@
     "@storybook/builder-webpack5": "^6.3.7",
     "@storybook/manager-webpack5": "^6.3.7",
     "@storybook/react": "^6.3.7",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/react-hooks": "^7.0.2",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.172",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
@@ -81,6 +74,7 @@
     "css-loader": "^6.2.0",
     "css-minimizer-webpack-plugin": "^3.0.2",
     "cz-conventional-changelog": "^3.3.0",
+    "date-fns": "^2.23.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.24.2",
@@ -90,9 +84,6 @@
     "file-loader": "^6.2.0",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.1.0",
-    "jest-styled-components": "^7.0.5",
-    "jest-useragent-mock": "^0.1.1",
     "license-checker": "^25.0.1",
     "lint-staged": "^11.1.2",
     "loader-utils": "^2.0.0",
@@ -111,7 +102,6 @@
     "stylelint-config-airbnb": "^0.0.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.20.1",
-    "ts-jest": "^27.0.5",
     "typescript": "^4.4.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
@@ -123,7 +113,6 @@
   "lint-staged": {
     "src/**/*.ts?(x)": [
       "eslint",
-      "jest --bail --findRelatedTests",
       "git add"
     ],
     "src/**/*.scss": [

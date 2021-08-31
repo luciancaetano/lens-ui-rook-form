@@ -7,7 +7,7 @@ declare module '*.scss' {
 }
 
 declare module 'styled-components' {
-  export interface IDefaultTheme extends ThemeTypes.IThemeSettings{
+  export interface ILuifDefaultTheme extends ThemeTypes.IThemeSettings{
     //
   }
 }
