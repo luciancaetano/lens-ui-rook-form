@@ -18,10 +18,10 @@
     "lint:code": "eslint ./src --ext .tsx --ext .ts --max-warnings=0 && eslint ./stories --ext .tsx --ext .ts --max-warnings=0",
     "lint:code:fix": "eslint ./src --ext .tsx --ext .ts --fix && eslint ./stories --ext .tsx --ext .ts --fix",
     "lint:styles": "stylelint \"src/**/*.{ts,tsx,scss,css}\"",
-    "release:minor": "standard-version --release-as minor && npm run build && git push --follow-tags origin master && npm publish",
-    "release:major": "standard-version --release-as major && npm run build && git push --follow-tags origin master && npm publish",
-    "release:patch": "standard-version --release-as patch && npm run build && git push --follow-tags origin master && npm publish",
-    "release:pre": "standard-version --prerelease && npm run build && git push --follow-tags origin master && npm publish"
+    "release:minor": "standard-version --release-as minor && npm run build && git push --follow-tags origin main && npm publish",
+    "release:major": "standard-version --release-as major && npm run build && git push --follow-tags origin main && npm publish",
+    "release:patch": "standard-version --release-as patch && npm run build && git push --follow-tags origin main && npm publish",
+    "release:pre": "standard-version --prerelease && npm run build && git push --follow-tags origin main && npm publish"
   },
   "repository": {
     "type": "git",
