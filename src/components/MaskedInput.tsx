@@ -1,5 +1,5 @@
 import React from 'react';
-import { MaskedInput as LensMaskedInput, IMaskedInputProps as LensIMaskedInputProps } from '@luciancaetano/lens-ui';
+import { MaskedInput as LensMaskedInput, IMaskedInputProps as LensIMaskedInputProps } from 'lens-ui';
 import { Control, Controller } from 'react-hook-form';
 
 export interface ILuifMaskedInputProps extends Omit<LensIMaskedInputProps, 'value' | 'defaultValue'> {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckBox as LensCheckBox, ICheckBoxProps } from '@luciancaetano/lens-ui';
+import { CheckBox as LensCheckBox, ICheckBoxProps } from 'lens-ui';
 import { Control, Controller } from 'react-hook-form';
 
 export interface ILuifCheckboxProps extends Omit<ICheckBoxProps, 'checked' | 'defaultChecked' > {

@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import {
-  DesignProvider, FormGroup, Button,
-} from '@luciancaetano/lens-ui';
+  LensProvider, FormGroup, Button,
+} from 'lens-ui';
 import { useForm } from 'react-hook-form';
 import {
   CheckBox, DateInput, MaskedInput, MoneyInput, RadioGroup, Select, Switch, TextInput,
@@ -22,7 +22,7 @@ export const _Checkbox = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <CheckBox label="HTML Label" name="CheckBox" control={control} />
@@ -30,7 +30,7 @@ export const _Checkbox = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -43,7 +43,7 @@ export const _DateInput = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <DateInput
@@ -55,7 +55,7 @@ export const _DateInput = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -68,7 +68,7 @@ export const _MaskedInput = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <MaskedInput
@@ -80,7 +80,7 @@ export const _MaskedInput = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -93,7 +93,7 @@ export const _MoneyInput = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <MoneyInput
@@ -104,7 +104,7 @@ export const _MoneyInput = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -117,7 +117,7 @@ export const _RadioGroup = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <RadioGroup
@@ -129,7 +129,7 @@ export const _RadioGroup = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -142,7 +142,7 @@ export const _Select = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <Select
@@ -154,7 +154,7 @@ export const _Select = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -167,7 +167,7 @@ export const _Switch = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <Switch label="Night Mode" name="Switch" control={control} />
@@ -175,7 +175,7 @@ export const _Switch = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };
 
@@ -188,7 +188,7 @@ export const _TextInput = () => {
   }, []);
 
   return (
-    <DesignProvider>
+    <LensProvider>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormGroup>
           <TextInput
@@ -200,6 +200,6 @@ export const _TextInput = () => {
         </FormGroup>
       </form>
       <pre>{json}</pre>
-    </DesignProvider>
+    </LensProvider>
   );
 };

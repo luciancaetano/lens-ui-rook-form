@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select as LensSelect, ISelectProps as LensISelectProps } from '@luciancaetano/lens-ui';
+import { Select as LensSelect, ISelectProps as LensISelectProps } from 'lens-ui';
 import { Control, Controller } from 'react-hook-form';
 
 export interface ILuifSelectProps extends Omit<LensISelectProps, 'value' | 'defaultValue'> {

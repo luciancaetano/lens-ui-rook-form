@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput as LensTextInput, ITextInputProps as LensITextInputProps } from '@luciancaetano/lens-ui';
+import { TextInput as LensTextInput, TextInputPropsType as LensITextInputProps } from 'lens-ui';
 import { Control, Controller } from 'react-hook-form';
 
 export interface ILuifTextInputProps extends Omit<LensITextInputProps, 'value' | 'defaultValue'>{
@@ -13,8 +13,8 @@ export const TextInput: React.FC<ILuifTextInputProps> = ({ control, name, ...pro
     control={control}
     render={({ field }) => (
       <LensTextInput
-        {...props}
-        {...field}
+        {...props as any}
+        {...field as any}
       />
     )}
   />

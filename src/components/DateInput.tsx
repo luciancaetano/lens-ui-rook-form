@@ -1,5 +1,5 @@
 import React from 'react';
-import { DateInput as LensDateInput, IDateInputProps as LensIDateInputProps } from '@luciancaetano/lens-ui';
+import { DateInput as LensDateInput, IDateInputProps as LensIDateInputProps } from 'lens-ui';
 import { Control, Controller } from 'react-hook-form';
 
 export interface ILuifDateInputProps extends Omit<LensIDateInputProps, 'value'> {

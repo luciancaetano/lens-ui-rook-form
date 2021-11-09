@@ -1,5 +1,5 @@
 import React from 'react';
-import { MoneyInput as LensMoneyInput, IMoneyInputProps as LensIMoneyInputProps } from '@luciancaetano/lens-ui';
+import { MoneyInput as LensMoneyInput, IMoneyInputProps as LensIMoneyInputProps } from 'lens-ui';
 import { Control, Controller } from 'react-hook-form';
 
 export interface ILuifMoneyInputProps extends Omit<LensIMoneyInputProps, 'value' | 'defaultValue'> {
