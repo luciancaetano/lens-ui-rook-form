@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luciancaetano/lens-ui.git"
+    "url": "git+https://github.com/luciancaetano/lens-ui-rook-form.git"
   },
   "keywords": [
     "React",
@@ -40,9 +40,9 @@
   "author": "Lucian Caetano",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/luciancaetano/lens-ui/issues"
+    "url": "https://github.com/luciancaetano/lens-ui-rook-form/issues"
   },
-  "homepage": "https://github.com/luciancaetano/lens-ui#readme",
+  "homepage": "https://github.com/luciancaetano/lens-ui-rook-form#readme",
   "peerDependencies": {
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"
