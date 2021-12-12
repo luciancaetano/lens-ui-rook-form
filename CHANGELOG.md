@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.3.4](https://github.com/luciancaetano/lens-ui-rook-form/compare/v4.3.3...v4.3.4) (2021-12-12)
+
 ### 4.3.3 (2021-12-12)
 
 
