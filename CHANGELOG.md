@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 4.3.3 (2021-12-12)
+
+
+### Features
+
+* :tada:  First commit ([d7c39b9](https://github.com/luciancaetano/lens-ui-rook-form/commit/d7c39b9aecad98dd76cccc68e0416557b7f21e63))
+* **wrap all input components:** :sparkles: ([38b799e](https://github.com/luciancaetano/lens-ui-rook-form/commit/38b799e45984dcde1f8faaada437385089ed7d72))
+
 ### [4.3.2](https://github.com/luciancaetano/lens-ui-rook-form/compare/v2.0.4...v4.3.2) (2021-11-09)
 
 ### [2.0.4](https://github.com/luciancaetano/lens-ui/compare/v2.0.3...v2.0.4) (2021-10-18)
